@@ -1,0 +1,43 @@
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.dropdown-item:hover, .nav-item:hover
+{
+    background: red!important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.card:hover
+{
+  background: ghostwhite;
+}
+body
+{
+  background: url('../../images/back1.jpg');
+}
+.heading
+{
+  text-shadow: 0px 1px white;
+}
+.heading span
+{
+  color:#e1281b;
+}
+#example_wrapper
+{
+  text-align: left!important;
+}
+.form-control
+{
+  border:2px solid lightgray!important;
+}
